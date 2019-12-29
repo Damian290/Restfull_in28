@@ -1,0 +1,34 @@
+package com.example.rest.webServices.Restfull.versioning;
+
+/**
+ * Created by Acer on 2019-12-27.
+ */
+public class Name {
+    private String FirstName;
+    private String LastName;
+
+    public Name(){
+
+    }
+
+    public Name(String firstName, String lastName) {
+        FirstName = firstName;
+        LastName = lastName;
+    }
+
+    public String getFirstName() {
+        return FirstName;
+    }
+
+    public void setFirstName(String firstName) {
+        FirstName = firstName;
+    }
+
+    public String getLastName() {
+        return LastName;
+    }
+
+    public void setLastName(String lastName) {
+        LastName = lastName;
+    }
+}
